@@ -117,7 +117,11 @@ footer {
     /* width: 100%; */
     align-self: center;
   }
-  header {font-size: 40px;}
+  header {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
   #hero {
     flex-direction: column;
   }
